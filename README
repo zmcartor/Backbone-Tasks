@@ -1,0 +1,9 @@
+Silly little project for learning Backbone.
+Ultimate goal is to make TODO list app with timers/timeboxing
+for each task.
+
+Dependencies are included within this project :
+underscore.js
+jQuery.js
+json2.js
+backbone.js
