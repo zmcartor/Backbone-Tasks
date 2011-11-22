@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js" type="text/javascript"></script>
+<script src="underscore-min.js" type="text/javascript"></script>
+<script src="json2.js" type="text/javascript"></script>
+<script src="backbone-min.js" type="text/javascript"></script>
+<script src="my-script.js" type="text/javascript"></script>
+
+<script type="text/template" id="List-view">
+	<H1>List of Things</h1>
+	<button id="add">Add Something</button>
+	<button id="clear">Clear everything</button>
+	<ul></ul>
+</script>
+
+<script type="text/template" id='Item-view'>
+<h3> <%= part1 %> </h3>
+<span class='partdeux'><%= part2 %> </span>
+	<span class="swap">[SWAP]</span>
+	<span class="delete">[DELETE]</span>
+</script>
+
+</head>
+
+<body>
+
+<div id="stuff"></div>
+
+</body>
+</html>

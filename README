@@ -4,6 +4,12 @@ for each task.
 
 Dependencies are included within this project :
 underscore.js
-jQuery.js
 json2.js
 backbone.js
+
+Main app is within my-script.js
+
+backbone-template.html contains underscore.js templates for building UI.
+have fun!
+
+_Z
